@@ -1,0 +1,18 @@
+name: Validar Script Shell
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  check-shell:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Instalar ShellCheck
+        run: sudo apt-get install -y shellcheck
+
+      - name: Validar script con ShellCheck
+        run: shellcheck script.sh
