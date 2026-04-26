@@ -2,11 +2,10 @@
 
 ## [1.1.0] - 2026-04-26
 ### Added
-- Archivo CHANGELOG.md para seguimiento de versiones.
-- Documentación de la Tarea 6.
+- Registro de cambios CHANGELOG.md.
+- Documentación de la Tarea 6 (Versionado).
 
 ## [1.0.0] - 2026-04-23
 ### Added
-- Script de validación automática.
-- Integración con GitHub Actions (ShellCheck).
-- Documentación de Rebase interactivo.
+- Script de validación de sintaxis.
+- Integración continua con GitHub Actions.
