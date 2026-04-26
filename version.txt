@@ -1,1 +1,2 @@
 Versión estable inicial del proyecto de validación.
+Añadida documentación de cambios y correcciones menores.
